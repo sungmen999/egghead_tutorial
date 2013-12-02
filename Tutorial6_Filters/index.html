@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="tutorial5">
+<head>
+	<title>To-Do List Angular</title>
+</head>
+<body>
+
+	<div ng-controller="tutorial5ControllerFirst">
+		<input type="text" ng-model="message.text"/>{{message.text}}
+	</div>
+
+	<div ng-controller="tutorial5ControllerSecond">
+		<input type="text" ng-model="message.text"/>{{reversedMessage()}}
+	</div>
+
+	<script src="../ng/angular.min.js"></script>
+	<script src="js/module.js"></script>
+	<script src="js/tutorial5Controller.js"></script>
+	<script src="js/tutorial5Service.js"></script>
+</body>
+</html>
